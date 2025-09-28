@@ -1,0 +1,98 @@
+/* about.css */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #005A34;
+    color: #fff;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.about-intro {
+    max-width: 800px; 
+    margin: auto;
+    text-align: justify;
+}
+.about-intro p {
+    margin-bottom: 20px;
+}
+
+.about-intro, .team {
+    padding: 40px;
+}
+
+.about-intro h1, .team h2 {
+    color: #005A34;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team {
+    max-width: 800px;  
+    margin: auto;  
+    text-align: justify;
+}
+.member {
+    text-align: center;
+    margin: 20px;
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.member h3 {
+    margin-top: 10px;
+}
+
+.member p {
+    color: #666;
+}
+.footer .col {
+    text-align: left;
+    margin: auto;
+}
+
+.footer .col p, .footer .col h4 {
+    text-align: justify;
+}

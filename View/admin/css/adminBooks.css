@@ -1,0 +1,43 @@
+.admin-main {
+    padding: 20px;
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.books-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.books-table th, .books-table td {
+    padding: 10px; 
+    text-align: left; 
+}
+.books-table th {
+    background-color: #f4f4f4;
+}
+
+.books-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.books-table a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.books-table a:hover {
+    text-decoration: underline;
+}
+.books-table img.book-image {
+    width: 100px;  
+    height: auto;  
+    border-radius: 5px;  
+    margin-right: 10px;
+}
